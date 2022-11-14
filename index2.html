@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index2.css">
+    <!--The external style sheets work. But I realize I submitted this without all of the CSS files for the other HTML files. So For the sake of submitting this assignment, I included the CSS internally.-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+        /*I do not know why the background color is white*/
+        body {
+            background-color:#EB927F;
+            font-size: 2rem;
+            color: rgb(113, 64, 34);
+            margin: 0;
+            padding: 0;
+            border: 0;
+            text-decoration: none;
+        }
+        nav {
+            background-color: #FFBB8A;
+            display:flex;
+            justify-content:space-between;
+            align-items:baseline;
+            margin-left: 0;
+            margin-right: 0;
+            font-size:2.5rem;
+            padding-left: 60px;
+            padding-right: 60px;
+            font-weight: bold;
+        }
+        .nav {
+            display:inline;
+            list-style:none;
+            text-decoration: none;
+        }
+        a {
+            text-decoration: none;
+        }
+        a:link {
+            color: rgb(0, 0, 0);
+            background-color: transparent;
+            text-decoration: none;
+          }
+          
+          a:visited {
+            color: rgb(123, 81, 189);
+            background-color: transparent;
+            text-decoration: none;
+          }
+          
+          a:hover {
+            color: rgb(94, 36, 188);
+            background-color: transparent;
+            text-decoration: underline;
+          }
+          
+          a:active {
+            color: black;
+            background-color: transparent;
+            text-decoration: underline;
+          }
+        main {
+            background-color: #EBC075;
+            margin-left: 10%;
+            margin-right: 10%;
+            font-size:2.2rem;
+            height: 1000px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 1px;
+            box-shadow: 0px 10px 22px rgba(93, 92, 92, 0.397);
+        }
+        .main:first-child {
+            font-size: 3rem;
+        }
+       footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+       }
+       .socials {
+        list-style: none;
+       }
+       .interest{
+        margin-left: 40px;
+       }
+       .quote {
+        position:relative;
+        margin: 150px;
+        width: 80%;
+        font-family: 'Courgette', cursive;
+        clear: both;
+       }
+       #socials-background-color {
+        width: 100%;
+        height: 180px;
+        background-color: #FFBB8A;
+        display: flex;
+        justify-content: center;
+       }
+       /*End Index.css*/
+       /*Start about.html css*/
+       #image1 {
+        display: flex;
+        flex-direction: column;
+        float: left;
+       }
+       #baseball {
+        float: right;
+        font-size: 3rem;
+       }
+       #baseball-paragraph {
+        text-indent: 2em;
+       }
+       #with-image {
+        position: relative;
+        padding-top: 75px;
+       }
+
+       /*second paragraph*/
+       #second-interest{
+        padding-right: 40px;
+       }
+       #swimming {
+        float: right;
+        font-size: 3rem;
+       }
+       #baseball-paragraph {
+        text-indent: 2em;
+       }
+       #with-image2 {
+        position: relative;
+        padding-top: 75px;
+       }
+
+       /*footer social media*/
+       #socials-background-color {
+        width: 100%;
+        height: 180px;
+        background-color: #FFBB8A;
+        display: flex;
+        justify-content: center;
+       }
+       #image2 {
+        display: flex;
+        flex-direction: column;
+        float: right;
+       }
+       /* START Portfolio.css*/
+       #baseball {
+        float: right;
+        font-size: 3rem;
+       }
+       #baseball-paragraph {
+        text-indent: 2em;
+       }
+       #with-image {
+        position: relative;
+        padding-top: 75px;
+       }
+       #image1 {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        z-index: 1;
+       }
+       /*second paragraph*/
+       #second-interest{
+        padding-right: 40px;
+        padding-left: 40px;
+        width: 90%;
+        margin-left: 40px;
+       }
+       #swimming {
+        float: right;
+        font-size: 3rem;
+        padding: 5px;
+       }
+       #baseball-paragraph {
+        text-indent: 2em;
+       }
+       #with-image2 {
+        position: relative;
+        padding-top: 75px;
+       }
+       /*footer social media*/
+       #socials-background-color {
+        width: 100%;
+        height: 180px;
+        background-color: #FFBB8A;
+        display: flex;
+        justify-content: center;
+       }
+       #image2 {
+        display: flex;
+        flex-direction: column;
+        float: right;
+       }
+       /* Portfolio CSS Start here*/
+       #no-order {
+        font-size: 2.6rem;
+       }
+       #first {
+        position: absolute;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="logo">Trenton Toplikar</div>   
+            <div>
+                <!--Added anchor tags to redirect to files on the same page-->
+                <ul id="nav">
+                    <li class="nav"><a href="index2.html">Home</a></li>
+                    <li class="nav"><a href="about2.html">About</a></li>
+                    <li class="nav"><a href="portfolio2.html">Portfolio</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="main interest">
+            <p>Developer, athlete, supporter.</p>
+        </div>
+        <div class="main interest">
+            <p> 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque molestiae fuga, architecto officia quisquam.
+            </p>
+        </div>
+        <div class="main quote">
+            <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem quod pariatur dicta officia? Sequi officiis sed minus magnam accusantium! Quas ex hic harum laboriosam fuga accusamus." 
+                <br>-Ghandi</p>
+        </div>
+    </main>
+    <footer>
+        <div id="socials-background-color">
+        <ul>
+            <!--I found a licensable photo with a smaller URL... but for some reason the CSS wouldn't edit that particualr image.-->
+            <li class="socials"><img src="data:image/png;base64,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"></li>
+        </ul>
+    </div>
+    </footer>
+</body>
+</html>
